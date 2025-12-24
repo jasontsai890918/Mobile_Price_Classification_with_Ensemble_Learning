@@ -209,12 +209,6 @@ test_data = pd.read_csv('./data/test.csv')
 3. **Decision Tree** 透過 Stacking 獲得最大效能提升（+15%）
 4. **DTC** 在基礎模型中表現最差（81.2%），但在整合模型中表現優於 KNN
 
-### 視覺化分析
-
-- 價格與 RAM 呈現明顯正相關
-- 價格與電池容量呈現正相關
-- 四個價格區間在資料集中分布均勻，無類別不平衡問題
-
 ## 📁 專題結構
 ```
 mobile-price-classification/
